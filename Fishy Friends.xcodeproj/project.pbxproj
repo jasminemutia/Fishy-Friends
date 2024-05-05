@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D649AD842BE6B3ED00AC24B3 /* Fishy_FriendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649AD832BE6B3ED00AC24B3 /* Fishy_FriendsApp.swift */; };
+		D649AD862BE6B3ED00AC24B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649AD852BE6B3ED00AC24B3 /* ContentView.swift */; };
+		D649AD882BE6B3ED00AC24B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D649AD872BE6B3ED00AC24B3 /* Assets.xcassets */; };
+		D649AD8B2BE6B3ED00AC24B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D649AD8A2BE6B3ED00AC24B3 /* Preview Assets.xcassets */; };
+		D649AD922BE6B42500AC24B3 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649AD912BE6B42500AC24B3 /* SplashScreenView.swift */; };
+		D649AD942BE6B43700AC24B3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649AD932BE6B43700AC24B3 /* Extensions.swift */; };
+		D649AD982BE6B52B00AC24B3 /* Angler Fish.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649AD972BE6B52B00AC24B3 /* Angler Fish.gif */; };
+		D649AD9A2BE6B54100AC24B3 /* Puffer Fish.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649AD992BE6B54100AC24B3 /* Puffer Fish.gif */; };
+		D649AD9C2BE6B55600AC24B3 /* Sea Horse.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649AD9B2BE6B55600AC24B3 /* Sea Horse.gif */; };
+		D649AD9F2BE6B58900AC24B3 /* PufferFish.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649AD9E2BE6B58900AC24B3 /* PufferFish.swift */; };
+		D649ADA12BE6B59B00AC24B3 /* AnglerFish.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADA02BE6B59B00AC24B3 /* AnglerFish.swift */; };
+		D649ADA32BE6B5A500AC24B3 /* SeaHorse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADA22BE6B5A500AC24B3 /* SeaHorse.swift */; };
+		D649ADA52BE6B5E500AC24B3 /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADA42BE6B5E500AC24B3 /* GifImageView.swift */; };
+		D649ADA82BE6B70B00AC24B3 /* Puffer Eat.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADA72BE6B70B00AC24B3 /* Puffer Eat.gif */; };
+		D649ADAA2BE6B71400AC24B3 /* Puffer Sick.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADA92BE6B71400AC24B3 /* Puffer Sick.gif */; };
+		D649ADAC2BE6B72500AC24B3 /* Puffer Sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADAB2BE6B72500AC24B3 /* Puffer Sleep.gif */; };
+		D649ADAE2BE6BAAB00AC24B3 /* Angler eat.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADAD2BE6BAAB00AC24B3 /* Angler eat.gif */; };
+		D649ADB02BE6BACC00AC24B3 /* Lantern Sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADAF2BE6BACC00AC24B3 /* Lantern Sleep.gif */; };
+		D649ADB22BE6BB0900AC24B3 /* Angler Sick.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADB12BE6BB0900AC24B3 /* Angler Sick.gif */; };
+		D649ADB42BE764CF00AC24B3 /* Seahore Sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADB32BE764CF00AC24B3 /* Seahore Sleep.gif */; };
+		D649ADB62BE764DF00AC24B3 /* Seahore eat.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADB52BE764DF00AC24B3 /* Seahore eat.gif */; };
+		D649ADB82BE7659F00AC24B3 /* Seahorse sick.gif in Resources */ = {isa = PBXBuildFile; fileRef = D649ADB72BE7659F00AC24B3 /* Seahorse sick.gif */; };
+		D649ADBB2BE7684A00AC24B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADBA2BE7684A00AC24B3 /* ViewController.swift */; };
+		D649ADBD2BE768A400AC24B3 /* SceneMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADBC2BE768A400AC24B3 /* SceneMini.swift */; };
+		D649ADBF2BE768C500AC24B3 /* SceneMini.sks in Resources */ = {isa = PBXBuildFile; fileRef = D649ADBE2BE768C500AC24B3 /* SceneMini.sks */; };
+		D649ADC12BE7695700AC24B3 /* MinigamesSceneViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADC02BE7695700AC24B3 /* MinigamesSceneViewRepresentable.swift */; };
+		D649ADC32BE76AA300AC24B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADC22BE76AA300AC24B3 /* AppDelegate.swift */; };
+		D649ADC52BE76B7800AC24B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D649ADC42BE76B7800AC24B3 /* LaunchScreen.storyboard */; };
+		D649ADC72BE76BA900AC24B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D649ADC62BE76BA900AC24B3 /* Main.storyboard */; };
+		D649ADC92BE76BE200AC24B3 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADC82BE76BE200AC24B3 /* SceneKitView.swift */; };
+		D649ADCB2BE76C5300AC24B3 /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADCA2BE76C5300AC24B3 /* UIImage+GIF.swift */; };
+		D649ADCD2BE76C8400AC24B3 /* SceneKitView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADCC2BE76C8400AC24B3 /* SceneKitView1.swift */; };
+		D649ADCF2BE76C9C00AC24B3 /* SceneKitView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649ADCE2BE76C9C00AC24B3 /* SceneKitView2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D649AD802BE6B3ED00AC24B3 /* Fishy Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishy Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D649AD832BE6B3ED00AC24B3 /* Fishy_FriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishy_FriendsApp.swift; sourceTree = "<group>"; };
+		D649AD852BE6B3ED00AC24B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D649AD872BE6B3ED00AC24B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D649AD8A2BE6B3ED00AC24B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D649AD912BE6B42500AC24B3 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		D649AD932BE6B43700AC24B3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D649AD972BE6B52B00AC24B3 /* Angler Fish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Angler Fish.gif"; sourceTree = "<group>"; };
+		D649AD992BE6B54100AC24B3 /* Puffer Fish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Puffer Fish.gif"; sourceTree = "<group>"; };
+		D649AD9B2BE6B55600AC24B3 /* Sea Horse.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Sea Horse.gif"; sourceTree = "<group>"; };
+		D649AD9E2BE6B58900AC24B3 /* PufferFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PufferFish.swift; sourceTree = "<group>"; };
+		D649ADA02BE6B59B00AC24B3 /* AnglerFish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglerFish.swift; sourceTree = "<group>"; };
+		D649ADA22BE6B5A500AC24B3 /* SeaHorse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaHorse.swift; sourceTree = "<group>"; };
+		D649ADA42BE6B5E500AC24B3 /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
+		D649ADA72BE6B70B00AC24B3 /* Puffer Eat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Puffer Eat.gif"; sourceTree = "<group>"; };
+		D649ADA92BE6B71400AC24B3 /* Puffer Sick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Puffer Sick.gif"; sourceTree = "<group>"; };
+		D649ADAB2BE6B72500AC24B3 /* Puffer Sleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Puffer Sleep.gif"; sourceTree = "<group>"; };
+		D649ADAD2BE6BAAB00AC24B3 /* Angler eat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Angler eat.gif"; sourceTree = "<group>"; };
+		D649ADAF2BE6BACC00AC24B3 /* Lantern Sleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Lantern Sleep.gif"; sourceTree = "<group>"; };
+		D649ADB12BE6BB0900AC24B3 /* Angler Sick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Angler Sick.gif"; sourceTree = "<group>"; };
+		D649ADB32BE764CF00AC24B3 /* Seahore Sleep.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Seahore Sleep.gif"; sourceTree = "<group>"; };
+		D649ADB52BE764DF00AC24B3 /* Seahore eat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Seahore eat.gif"; sourceTree = "<group>"; };
+		D649ADB72BE7659F00AC24B3 /* Seahorse sick.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Seahorse sick.gif"; sourceTree = "<group>"; };
+		D649ADBA2BE7684A00AC24B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D649ADBC2BE768A400AC24B3 /* SceneMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneMini.swift; sourceTree = "<group>"; };
+		D649ADBE2BE768C500AC24B3 /* SceneMini.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SceneMini.sks; sourceTree = "<group>"; };
+		D649ADC02BE7695700AC24B3 /* MinigamesSceneViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigamesSceneViewRepresentable.swift; sourceTree = "<group>"; };
+		D649ADC22BE76AA300AC24B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D649ADC42BE76B7800AC24B3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D649ADC62BE76BA900AC24B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D649ADC82BE76BE200AC24B3 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
+		D649ADCA2BE76C5300AC24B3 /* UIImage+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
+		D649ADCC2BE76C8400AC24B3 /* SceneKitView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView1.swift; sourceTree = "<group>"; };
+		D649ADCE2BE76C9C00AC24B3 /* SceneKitView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D649AD7D2BE6B3ED00AC24B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D649AD772BE6B3ED00AC24B3 = {
+			isa = PBXGroup;
+			children = (
+				D649AD822BE6B3ED00AC24B3 /* Fishy Friends */,
+				D649AD812BE6B3ED00AC24B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D649AD812BE6B3ED00AC24B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D649AD802BE6B3ED00AC24B3 /* Fishy Friends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D649AD822BE6B3ED00AC24B3 /* Fishy Friends */ = {
+			isa = PBXGroup;
+			children = (
+				D649AD832BE6B3ED00AC24B3 /* Fishy_FriendsApp.swift */,
+				D649AD932BE6B43700AC24B3 /* Extensions.swift */,
+				D649ADCA2BE76C5300AC24B3 /* UIImage+GIF.swift */,
+				D649ADA42BE6B5E500AC24B3 /* GifImageView.swift */,
+				D649ADB92BE7683800AC24B3 /* AR */,
+				D649AD9D2BE6B56800AC24B3 /* View */,
+				D649AD872BE6B3ED00AC24B3 /* Assets.xcassets */,
+				D649ADA62BE6B6F200AC24B3 /* GIF Image */,
+				D649AD892BE6B3ED00AC24B3 /* Preview Content */,
+			);
+			path = "Fishy Friends";
+			sourceTree = "<group>";
+		};
+		D649AD892BE6B3ED00AC24B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D649AD8A2BE6B3ED00AC24B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D649AD9D2BE6B56800AC24B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D649AD852BE6B3ED00AC24B3 /* ContentView.swift */,
+				D649ADA02BE6B59B00AC24B3 /* AnglerFish.swift */,
+				D649ADA22BE6B5A500AC24B3 /* SeaHorse.swift */,
+				D649AD912BE6B42500AC24B3 /* SplashScreenView.swift */,
+				D649AD9E2BE6B58900AC24B3 /* PufferFish.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D649ADA62BE6B6F200AC24B3 /* GIF Image */ = {
+			isa = PBXGroup;
+			children = (
+				D649ADA92BE6B71400AC24B3 /* Puffer Sick.gif */,
+				D649AD9B2BE6B55600AC24B3 /* Sea Horse.gif */,
+				D649ADB52BE764DF00AC24B3 /* Seahore eat.gif */,
+				D649ADB32BE764CF00AC24B3 /* Seahore Sleep.gif */,
+				D649ADB72BE7659F00AC24B3 /* Seahorse sick.gif */,
+				D649AD992BE6B54100AC24B3 /* Puffer Fish.gif */,
+				D649ADAB2BE6B72500AC24B3 /* Puffer Sleep.gif */,
+				D649ADA72BE6B70B00AC24B3 /* Puffer Eat.gif */,
+				D649ADAD2BE6BAAB00AC24B3 /* Angler eat.gif */,
+				D649ADB12BE6BB0900AC24B3 /* Angler Sick.gif */,
+				D649AD972BE6B52B00AC24B3 /* Angler Fish.gif */,
+				D649ADAF2BE6BACC00AC24B3 /* Lantern Sleep.gif */,
+			);
+			path = "GIF Image";
+			sourceTree = "<group>";
+		};
+		D649ADB92BE7683800AC24B3 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				D649ADC82BE76BE200AC24B3 /* SceneKitView.swift */,
+				D649ADCC2BE76C8400AC24B3 /* SceneKitView1.swift */,
+				D649ADCE2BE76C9C00AC24B3 /* SceneKitView2.swift */,
+				D649ADC62BE76BA900AC24B3 /* Main.storyboard */,
+				D649ADC42BE76B7800AC24B3 /* LaunchScreen.storyboard */,
+				D649ADBA2BE7684A00AC24B3 /* ViewController.swift */,
+				D649ADBC2BE768A400AC24B3 /* SceneMini.swift */,
+				D649ADBE2BE768C500AC24B3 /* SceneMini.sks */,
+				D649ADC02BE7695700AC24B3 /* MinigamesSceneViewRepresentable.swift */,
+				D649ADC22BE76AA300AC24B3 /* AppDelegate.swift */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D649AD7F2BE6B3ED00AC24B3 /* Fishy Friends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D649AD8E2BE6B3ED00AC24B3 /* Build configuration list for PBXNativeTarget "Fishy Friends" */;
+			buildPhases = (
+				D649AD7C2BE6B3ED00AC24B3 /* Sources */,
+				D649AD7D2BE6B3ED00AC24B3 /* Frameworks */,
+				D649AD7E2BE6B3ED00AC24B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fishy Friends";
+			productName = "Fishy Friends";
+			productReference = D649AD802BE6B3ED00AC24B3 /* Fishy Friends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D649AD782BE6B3ED00AC24B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D649AD7F2BE6B3ED00AC24B3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D649AD7B2BE6B3ED00AC24B3 /* Build configuration list for PBXProject "Fishy Friends" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D649AD772BE6B3ED00AC24B3;
+			productRefGroup = D649AD812BE6B3ED00AC24B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D649AD7F2BE6B3ED00AC24B3 /* Fishy Friends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D649AD7E2BE6B3ED00AC24B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D649AD8B2BE6B3ED00AC24B3 /* Preview Assets.xcassets in Resources */,
+				D649AD9C2BE6B55600AC24B3 /* Sea Horse.gif in Resources */,
+				D649ADB02BE6BACC00AC24B3 /* Lantern Sleep.gif in Resources */,
+				D649ADAE2BE6BAAB00AC24B3 /* Angler eat.gif in Resources */,
+				D649ADB62BE764DF00AC24B3 /* Seahore eat.gif in Resources */,
+				D649ADAA2BE6B71400AC24B3 /* Puffer Sick.gif in Resources */,
+				D649ADC72BE76BA900AC24B3 /* Main.storyboard in Resources */,
+				D649AD9A2BE6B54100AC24B3 /* Puffer Fish.gif in Resources */,
+				D649AD882BE6B3ED00AC24B3 /* Assets.xcassets in Resources */,
+				D649ADAC2BE6B72500AC24B3 /* Puffer Sleep.gif in Resources */,
+				D649ADC52BE76B7800AC24B3 /* LaunchScreen.storyboard in Resources */,
+				D649ADBF2BE768C500AC24B3 /* SceneMini.sks in Resources */,
+				D649ADB82BE7659F00AC24B3 /* Seahorse sick.gif in Resources */,
+				D649ADA82BE6B70B00AC24B3 /* Puffer Eat.gif in Resources */,
+				D649ADB42BE764CF00AC24B3 /* Seahore Sleep.gif in Resources */,
+				D649ADB22BE6BB0900AC24B3 /* Angler Sick.gif in Resources */,
+				D649AD982BE6B52B00AC24B3 /* Angler Fish.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D649AD7C2BE6B3ED00AC24B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D649ADC32BE76AA300AC24B3 /* AppDelegate.swift in Sources */,
+				D649ADCF2BE76C9C00AC24B3 /* SceneKitView2.swift in Sources */,
+				D649AD862BE6B3ED00AC24B3 /* ContentView.swift in Sources */,
+				D649ADCB2BE76C5300AC24B3 /* UIImage+GIF.swift in Sources */,
+				D649ADA52BE6B5E500AC24B3 /* GifImageView.swift in Sources */,
+				D649AD842BE6B3ED00AC24B3 /* Fishy_FriendsApp.swift in Sources */,
+				D649ADBD2BE768A400AC24B3 /* SceneMini.swift in Sources */,
+				D649ADC12BE7695700AC24B3 /* MinigamesSceneViewRepresentable.swift in Sources */,
+				D649ADBB2BE7684A00AC24B3 /* ViewController.swift in Sources */,
+				D649AD922BE6B42500AC24B3 /* SplashScreenView.swift in Sources */,
+				D649AD942BE6B43700AC24B3 /* Extensions.swift in Sources */,
+				D649ADCD2BE76C8400AC24B3 /* SceneKitView1.swift in Sources */,
+				D649ADA12BE6B59B00AC24B3 /* AnglerFish.swift in Sources */,
+				D649AD9F2BE6B58900AC24B3 /* PufferFish.swift in Sources */,
+				D649ADA32BE6B5A500AC24B3 /* SeaHorse.swift in Sources */,
+				D649ADC92BE76BE200AC24B3 /* SceneKitView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D649AD8C2BE6B3ED00AC24B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D649AD8D2BE6B3ED00AC24B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D649AD8F2BE6B3ED00AC24B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fishy Friends/Preview Content\"";
+				DEVELOPMENT_TEAM = B49LQK4KMN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need Camera Access to Use AR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.Fishy-Friends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D649AD902BE6B3ED00AC24B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fishy Friends/Preview Content\"";
+				DEVELOPMENT_TEAM = B49LQK4KMN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need Camera Access to Use AR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.iosacademy.Fishy-Friends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D649AD7B2BE6B3ED00AC24B3 /* Build configuration list for PBXProject "Fishy Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D649AD8C2BE6B3ED00AC24B3 /* Debug */,
+				D649AD8D2BE6B3ED00AC24B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D649AD8E2BE6B3ED00AC24B3 /* Build configuration list for PBXNativeTarget "Fishy Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D649AD8F2BE6B3ED00AC24B3 /* Debug */,
+				D649AD902BE6B3ED00AC24B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D649AD782BE6B3ED00AC24B3 /* Project object */;
+}
